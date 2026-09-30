@@ -1,0 +1,8 @@
+body { font-family: Arial; background: #f4f6f9; margin:0; }
+header { background: #111; color: white; text-align: center; padding: 30px; }
+.container { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; padding: 20px; }
+.card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 350px; }
+input { width: 90%; padding: 10px; margin: 8px 0; border-radius: 8px; border: 1px solid #ccc; }
+button { width: 95%; padding: 10px; background: #00d26a; color: white; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; }
+button:hover { background: #00b85c; }
+ul { padding-left: 15px; }

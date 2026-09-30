@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FitBuddy - Your Fitness Partner</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>💪 FitBuddy</h1>
+  <p>Your Personal Fitness Tracker</p>
+</header>
+<div class="container">
+  <div class="card">
+    <h3>Add Today's Workout</h3>
+    <input id="workout" placeholder="Ex: Pushups - 30 mins">
+    <input id="calories" type="number" placeholder="Calories Burned">
+    <button onclick="addWorkout()">Add Workout</button>
+  </div>
+  <div class="card">
+    <h3>Today's Summary</h3>
+    <p>Total Workouts: <span id="count">0</span></p>
+    <p>Total Calories: <span id="totalCal">0</span></p>
+    <ul id="list"></ul>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
